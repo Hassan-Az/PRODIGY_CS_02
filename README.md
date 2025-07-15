@@ -2,20 +2,20 @@ Shuffl3d – Image Encryption Tool
 
 Shuffl3d is a simple Python GUI tool that encrypts and decrypts images by **scrambling pixel positions** and **shifting RGB values**. It ensures that the image becomes completely unreadable without the correct key.
 
-## 🧠 How It Works
+## How It Works
 
 1. **Scrambles** all pixels using a key-based random shuffle
 2. **Shifts** each pixel’s RGB values using the same key
 3. **Decrypts** by reversing both operations with the correct key
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * Python 3.x
 * `Tkinter` – GUI
 * `Pillow` – Image processing
 * `random` – For pixel shuffling
 
-## 🚀 How to Use
+## How to Use
 
 1. Clone repo and install Pillow:
 
@@ -37,7 +37,7 @@ Shuffl3d is a simple Python GUI tool that encrypts and decrypts images by **scra
 
 Output image is saved in the same folder with `_encrypted` or `_decrypted` suffix.
 
-## ✅ Example
+## Example
 
 Input: `photo.jpg` + key `123`
 → Output: `photo_encrypted.jpg`
